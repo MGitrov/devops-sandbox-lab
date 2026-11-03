@@ -15,7 +15,7 @@ docs once a phase is actually finished.
 **What I learned:**
 - Work in GitHub's Codespace.
 - The `.devcontainer` directory.
-- The `-C` flag in Git, used to run a command as if git was started in `<path>` instead of the current working directory.
+- The `-C` flag in Git, used to run a command as if git was started in `<path>` instead of the current working directory (instead of using `cd`).
 - The `rev-parse` command, turns Git's nicknames into exact addresses (for example, `HEAD` turns into the commit I'm on right now).
 
 **Confused about / to revisit:**
