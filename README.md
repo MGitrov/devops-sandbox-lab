@@ -9,7 +9,7 @@ prioritizes **understanding** and **strict cost safety** over realism or scale.
 
 ## The application under test
 
-**[Yelb](https://github.com/mreferre/yelb)** - a small open-source multi-tier demo app
+**[Yelb](https://github.com/mreferre/yelb) (Cloned commit: 55ee1b8)** - a small open-source multi-tier demo app
 (frontend + backend API + Redis + Postgres). Not written by me; used purely as a
 realistic-enough workload to deploy, break, and observe.
 

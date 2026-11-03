@@ -14,7 +14,7 @@ docs once a phase is actually finished.
 - Docker already installed (Docker Desktop for Mac)
 
 **What I learned:**
-- _fill in_
+- 
 
 **Confused about / to revisit:**
 - _fill in_
