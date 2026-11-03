@@ -11,10 +11,12 @@ docs once a phase is actually finished.
 **What I did:**
 - Created the `devops-lab` repo structure: README, docs/, terraform/, yelb/,
   .github/workflows/
-- Docker already installed (Docker Desktop for Mac)
 
 **What I learned:**
-- 
+- Work in GitHub's Codespace.
+- The `.devcontainer` directory.
+- The `-C` flag in Git, used to run a command as if git was started in `<path>` instead of the current working directory.
+- The `rev-parse` command, turns Git's nicknames into exact addresses (for example, `HEAD` turns into the commit I'm on right now).
 
 **Confused about / to revisit:**
 - _fill in_
