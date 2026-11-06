@@ -1,13 +1,12 @@
-#use this with `docker-compose up` against a generic Docker end-point (e.g. standalone Docker)
 version: "2.1"
-services:
-  yelb-ui:
+services: # A reusable definition of a container: which image to run, plus how to configure it (ports, env vars, volumes, networks, restart policy, replica count, and so on).
+  yelb-ui: # Service name. The service name is also a DNS name within the shared default network, we don't need IP addresses.
     image: mreferre/yelb-ui:0.10
     depends_on:
       - yelb-appserver
     ports:
-      - 8080:80
-    environment:
+      - 8080:80 # HOST:CONTAINER - Traffic that hits port 8080 on our machine goes to port 80 inside the container. `ports` only matters for traffic coming from outside.
+    environment: # Sets environment variables inside a container.
       - UI_ENV=test # dev | test | prod 
 
   yelb-appserver:

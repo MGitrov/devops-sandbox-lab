@@ -15,8 +15,8 @@
 ## Checklist
 
 - [x] Docker installed on Mac
-- [ ] `docker run hello-world` confirmed working
-- [ ] Yelb repo forked/cloned locally
+- [x] `docker run hello-world` confirmed working
+- [x] Yelb repo forked/cloned locally
 - [ ] `docker-compose up` running Yelb locally, UI reachable in browser
 - [ ] Confirmed votes persist across `yelb-appserver` restart
 - [ ] Confirmed votes do NOT persist after `docker-compose down -v`
